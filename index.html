@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoje Imię i Nazwisko | Zaawansowane Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <nav class="container">
+            <h1 class="logo">Twoje Imię</h1>
+            <ul>
+                <li><a href="#about">O Mnie</a></li>
+                <li><a href="#skills">Umiejętności</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="menu-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="intro-text">Cześć, jestem</p>
+                    <h2 class="name">Twoje Imię i Nazwisko.</h2>
+                    <h3 class="role typing-effect" data-roles='["Full-Stack Developer", "UX/UI Designer", "Inżynier Oprogramowania"]'></h3>
+                    <p class="description">Pasjonat tworzenia skalowalnych i wydajnych rozwiązań cyfrowych. Specjalizuję się w nowoczesnym Fronendzie i Architekturom Bezserwerowym.</p>
+                    <a href="#projects" class="cta-button">Zobacz Projekty</a>
+                </div>
+                <div class="hero-image-container">
+                    <img src="assets/profile.webp" alt="Twoje zdjęcie profilowe" class="profile-photo">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2>O Mnie 🚀</h2>
+                <p>Od 5 lat aktywnie działam w branży IT, koncentrując się na **[Kluczowa Technologia]** i efektywności działania aplikacji. Moje doświadczenie obejmuje pracę w startupach i korporacjach, zawsze stawiając na jakość kodu i innowacyjne podejście do problemów. Chętnie dzielę się wiedzą i jestem otwarty na nowe wyzwania.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Twoj_Nick" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/Twoj_Nick" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:twoj.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding background-alt">
+            <div class="container">
+                <h2>Umiejętności 🛠️</h2>
+                <p class="section-subtitle">Moje główne technologie i narzędzia, w których mam **udokumentowane doświadczenie**.</p>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-react icon-primary"></i>
+                        <h3>React / Redux</h3>
+                        <p>Zaawansowane komponenty, optymalizacja wydajności, hooki.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js icon-primary"></i>
+                        <h3>JavaScript (ES6+)</h3>
+                        <p>Asynchroniczność, Testy jednostkowe (Jest), TypeScript.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-node-js icon-primary"></i>
+                        <h3>Node.js / Express</h3>
+                        <p>REST API, architektura mikroserwisów, bezpieczeństwo.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database icon-primary"></i>
+                        <h3>Bazy Danych</h3>
+                        <p>PostgreSQL, MongoDB (Mongoose), optymalizacja zapytań SQL.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <h2>Projekty 📂</h2>
+                <div class="projects-grid">
+                    
+                    <article class="project-card">
+                        <figure class="project-figure">
+                            </figure>
+                        <div class="project-info">
+                            <h3>Aplikacja e-Commerce (Tytuł Projektu)</h3>
+                            <p class="tags">#React #Node.js #MongoDB #Stripe</p>
+                            <p class="project-desc">Skalowalny system e-commerce z pełnym procesem płatności i panelem administracyjnym.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Twoj_Nick/Projekt1" target="_blank">Kod <i class="fa-brands fa-github"></i></a>
+                                <a href="https://projekt1.com" target="_blank" class="live-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <figure class="project-figure">
+                            </figure>
+                        <div class="project-info">
+                            <h3>Dashboard Analizy Danych (Tytuł Projektu)</h3>
+                            <p class="tags">#Python #Pandas #Dash #Docker</p>
+                            <p class="project-desc">Interaktywny dashboard do wizualizacji danych z sensorów IoT. Optymalizacja Pythona.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Twoj_Nick/Projekt2" target="_blank">Kod <i class="fa-brands fa-github"></i></a>
+                                <a href="https://projekt2.com" target="_blank" class="live-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding background-alt">
+            <div class="container">
+                <h2>Skontaktujmy się 👋</h2>
+                <p>Jestem otwarty na nowe projekty i współpracę. Zostaw wiadomość lub znajdź mnie na sieciach społecznościowych!</p>
+                <a href="mailto:twoj.email@example.com?subject=Zapytanie%20o%20wspolprace" class="cta-button contact-button">
+                    <i class="fa-solid fa-paper-plane"></i> Napisz do Mnie
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Twoje Imię i Nazwisko. Zbudowane z ❤️ i nowoczesnych technologii.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
